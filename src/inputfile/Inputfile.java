@@ -8,7 +8,9 @@ public class Inputfile {
     private Scanner y;
     
     public void create_writefile(){
-        try {
+        int check=2;
+        int var=1;
+        try {//changed
             x = new Formatter("in.txt");
             x.format("%s","\n");
             x.format("%s %s %s",11,2,3);
